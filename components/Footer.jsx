@@ -1,9 +1,14 @@
 import React from "react";
+import { AiFillInstagram, AiOutlineTwitter } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div>
-      <p>Footer</p>
+    <div className="footer-container">
+      <p>2023 Maggies Diamond Boutiqe All Rights Reserved</p>
+      <p className="icons">
+        <AiFillInstagram />
+        <AiOutlineTwitter />
+      </p>
     </div>
   );
 };
